@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   # A job
-  run-github-action:
+  run-github-actions:
     runs-on: ubuntu-latest
     steps:
       # A step. An action
