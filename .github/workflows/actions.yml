@@ -7,7 +7,7 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
-      # A step. An action
+      # A step. An action.
       - name: Simple JS Actions
         id: greet
         uses: areathy/cooking-technique@master
