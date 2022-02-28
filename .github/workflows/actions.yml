@@ -13,7 +13,7 @@ jobs:
         uses: areathy/cooking-technique@master
         # Providing an input
         with:
-          who-to-greet: Henrietha Chidiebere
+          who-to-greet: Henrietha
       # End of the action
 
       # A step. An action. Echooing the output the output
