@@ -10,7 +10,7 @@ jobs:
       # A step. An action
       - name: Simple JS Actions
         id: greet
-        uses: actions/hello-world-javascript@v1
+        uses: areathy/cooking-technique@v1
         # Providing an input
         with:
           who-to-greet: Henrietha Chidiebere
