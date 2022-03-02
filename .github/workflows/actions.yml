@@ -21,6 +21,10 @@ on:
       - '!feature/featC' #will ignore this branch even though it passes the criteria above. This is b/c of the exclamation mark
     # activity types for the pull-request
     types: [closed, assigned, opened, reopened]
+    ##tags and tags-ignore can't be together just like branches and branches-ignore
+    #tags:
+    #  - v1.*
+    #tags-ignore:
 
 jobs:
   # A job
