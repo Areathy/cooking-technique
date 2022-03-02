@@ -1,6 +1,10 @@
 name: Actions Workflow
 
-on: [push, pull_request]
+on: 
+  push:
+  pull_request:
+    # activity types for the pull-request
+    types: [closed, assigned, opened, reopened]
 
 jobs:
   # A job
