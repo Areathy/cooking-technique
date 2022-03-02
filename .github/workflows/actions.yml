@@ -18,6 +18,7 @@ on:
       # help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
       - 'feature/*' #matches feature/featA, feature/featB Doesn't match feature/feat/a
       - 'feature/**' #matches feature/feat/a, feature/featA and feature/featB
+      - '!feature/featC' #will ignore this branch even though it passes the criteria above. This is b/c of the exclamation mark
     # activity types for the pull-request
     types: [closed, assigned, opened, reopened]
 
