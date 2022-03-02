@@ -13,6 +13,7 @@ on:
   pull_request:
     branches:
       - master
+      # help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
       - 'feature/*' #matches feature/featA, feature/featB Doesn't match feature/feat/a
       - 'feature/**' #matches feature/feat/a, feature/featA and feature/featB
     # activity types for the pull-request
