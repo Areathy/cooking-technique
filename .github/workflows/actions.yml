@@ -11,6 +11,8 @@ on:
     branches:
       - master
   pull_request:
+    # branches to ignore (run on all except. We can't have branches and branches-ignore at same time)
+    # branches-ignore:
     branches:
       - master
       # help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
