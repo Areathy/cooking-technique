@@ -25,6 +25,12 @@ on:
     #tags:
     #  - v1.*
     #tags-ignore:
+    #paths
+    #paths:
+    #  - '**.js'
+    #  - '!folder/filename.js'
+    #paths-ignore:
+    #  - 'docs/**'
 
 jobs:
   # A job
