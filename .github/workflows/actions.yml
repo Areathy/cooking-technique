@@ -7,9 +7,9 @@ on:
   # repository_dispatch:
   #   types: [build]
 
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
   pull_request:
     # branches to ignore (run on all except. We can't have branches and branches-ignore at same time)
     # branches-ignore:
